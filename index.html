@@ -1,124 +1,79 @@
+<!DOCTYPE html>
 <html>
- <head>
- <meta http-equiv='content-type' content='text/html; charset=UTF-8' />
-  <style>
-    ul#menu li
-	{
-	  display:inline;
-	  
-	}
-	ul#menu a
-	{
-	 display: block;
-	
-	font-weight: bold;
-	float: left;
-	color: white;
-	font-size: 1.2em;
-	text-decoration: none;
-	padding:50px;
-	}
-	 
-  
-  </style>
-  
-  <script>
-        var i = 0; var path = new Array(); //LIST OF IMAGES 
-		path[0] = "download (2).png"; path[1] = "download (3).png"; path[2] = "download (1).png"; 
-		function swapImage() 
-		{ 
-		    document.slide.src = path[i]; 
-		     if(i < path.length - 1) i++; 
-		      else i = 0; 
-		       setTimeout("swapImage()",3000);
-		} 
-		window.onload=swapImage;
- </script>
-   <body style="background-color:#E8E8E8 ;margin-right:10%;">
 
-   <div id="image" style="width:100%;height:100%;">
-         
-         <div style="margin-left:10%;margin-right:10%;width:100%;height:15%;background-color:yellow;">	
-		    <img src="download.png"/>
-         </div>
-         <div style="margin-left:10%;margin-right:10%;width:100%;height:5%;background-color:green;">	
-          
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Vigneshmohan2.github.io : " />
 
-			<ul id="menu">		 
-       
-            			
-		    <li> <a href="#">Home</a> </li>
-			<li> <a href="#">Events</a> </li>
-			<li> <a href="#">Workshops</a> </li>
-			<li> <a href="#">Lectures</a> </li>
-			<li> <a href="#">XCEED</a> </li>
-			<li> <a href="#">Sponsors</a> </li>
-			</ul>
-         </div>
-         <div style="position:absolute;margin-left:10%;width:15%;height:80%;background-color:blue;float:left;">
-		 <style>
-         	ul#menus a
-	        {
-	          text-decoration:none;
-	          padding:18px;
-			  color:white;
-			
-			  float: left;
-            }
-           ul#menus {
-	         list-style: none;
-			  margin-left:20%;
-			   float: left;
-                color: white;
-		
-           }
-           ul#menus li:before {
-	         content: "\25BA \0020";
-			 position:relative;
-           }
-		 </style>
-		   <ul id="menus" type="arrow"> 
-			<li style="margin-top:5%;"><font size=5>QuickLinks</font></li>
-            <hr>
-			<li style="margin-top:10%;"> <a href="#">XCEED</a> </li>
-			<li> <a href="#">K! Ambassador</a> </li>
-			<li> <a href="#">Accommodation</a> </li>
-			<li> <a href="#">Schedule</a> </li>
-			<li> <a href="#">Sherlock</a> </li>
-			<li> <a href="#">K! Android App</a> </li>
-			<li> <a href="#">Webcast</a> </li>
-		  </ul>
-		 
-		 </div>
-		 <div style="margin-right:10%;width:75%;height:80%;float:right;background-color:#E8E8E8 ;">
-	       
-			   	   <img style="margin-left:14%;margin-top:1%;margin-right:20%;width:80%;height:100%;position:absolute;" name="slide" src="download (1).png">
-	
-			 </div>
-			
-		 </div>	 
-    	 <div style="margin-left:24%;margin-top:10%;height:40%;overflow=scroll;">
-		    <h2>A very long time ago, certain cousins from the same family battled against each other in one of the fiercest and bloodiest wars that history has ever witnessed. The battle field of 
-Kurukshetra still speaks tales about the Great War where mere mortals turned into legends throughout eternity. Now, the epic battle ground has been recreated at the College of Engineering, 
-Guindy but this time around, the battle is fought with wits and intellect.
-Welcome to Kurukshetra, the international techno management fest conducted by College of Engineering, Guindy!
-The eighth edition of Kurukshetra is scheduled from January 29 to February 1, 2014. Kurukshetra attracts over 20000 participants from over 80 countries across the globe. Students flock from 
-1200 colleges in the country and 800 colleges overseas. It also has the privilege of being the first techno management fest in India to be awarded the coveted UNESCO patronage. Kurukshetra 
-provides you a chance to become a legend and leave behind your legacy that will tell tales over the years to come. Only the fittest can survive the Battle of the Brains!
-</h2>
-<h1>FOREWORD</h1>
-<hr/>
-<h2>
-Greetings from the Student Directors of the CEG Tech Forum. It gives us immense pleasure to host the 8th edition of Kurukshetra. The CEG Tech Forum was initially started in 2006 to promote 
-a technical culture among college communities. We help in realizing the dreams of every student with promising ambitions. We celebrate this technological excellence by conducting Kurukshetra,
- the international techno management fest, annually. Kurukshetra was started as a small scale event and has grown leaps and bounds in great magnitude to an international event that has 
- gained the UNESCO patronage. The aim of Kurukshetra is to provide a unique experience for all the students across the country. Over the years, we redefined technical innovation and today,
- we have created a legacy that promises much more over the years. We invite you to be a part of this phenomenon.
-This year, let us celebrate technology at Kurukshetra!
-The Student Directors,
-CEG Tech Forum
-</h2>
-</div>
- </body>
- </head>
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Vigneshmohan2.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/VigneshMohan1/VigneshMohan2.github.io">View on GitHub</a>
+
+          <h1 id="project_title">Vigneshmohan2.github.io</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/VigneshMohan1/VigneshMohan2.github.io/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/VigneshMohan1/VigneshMohan2.github.io/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Vigneshmohan2.github.io maintained by <a href="https://github.com/VigneshMohan1">VigneshMohan1</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
 </html>
